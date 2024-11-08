@@ -121,6 +121,31 @@ Process of creating, using, and merging branches
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
+Roles of pull requests in GitHub
+1. Pull requests allow other team members to review code changes, ensuring adherence to coding standards and identifying potential issues early. 
+2. PRs serve as a collaboration hub, where team members can discuss features, changes, or bug fixes. 
+3. Pull requests can be linked to specific issues or tasks, making it easy to track which code changes address which problems.
+4. By isolating feature work and requiring review before merging, PRs help ensure that the main branch remains stable and free from untested code. 
+5. Each pull request contains a detailed record of the work done, discussions held, and the decisions made.
+
+ How pull requests facilitate code review and collaboration
+   1. Pull Requests allow developers to submit code for review in a centralized space where team members can see, discuss, and review changes line-by-line before merging into the main branch.
+   2. Pull requests encourage open discussion and help developers learn from each other, fostering a collaborative environment.
+   3. Pull requests can involve multiple contributors or teams, allowing everyone to understand the changes being made.
+   4. Pull Requests act as documentation of the review process.
+   5. Pull request helps reviewers understand the purpose of the code, ensuring it meets the requirements outlined in the issue or task
+  
+ Steps involved in creating and merging a pull request
+ 1. Start by creating a new branch for your changes, separate from the main branch
+ 2. Make the necessary code changes, then add and commit them to the new branch
+ 3. Push your branch to the remote repository on GitHub
+ 4. Go to your GitHub repository and click Compare & Pull Request next to the newly pushed branch.
+ 5. Select team members as reviewers. This notifies them to review and approve or suggest changes to the PR
+ 6. Reviewers will go through the pull request, provide feedback, and may request changes.
+ 7. Once reviewers approve the pull request and continuous integration (CI) checks pass (if any are set up), the PR is ready to merge
+ 8. Merge the Pull Request when approved
+ 9. After merging, delete the feature branch to keep the repository organized
+
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
