@@ -101,6 +101,24 @@ Commit is a snap point of changes made to files in a repository at a specific po
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
+How branching work in Git
+1. Create a branch using "git branch <branch-name>" command
+2. After creating a branch, you switch to it using "git checkout <branch-name>" command
+3. Now that you’re on the branch you created in step 1, you can make changes and commit them just as you would on the main branch by using the following commands; git add and git commit -m "Implemented login feature"
+4. In collaborative projects, each team member can create a branch for their feature (e.g., feature-login, feature-payment), allowing work to happen in parallel.
+5. Merge the branch locally by using the "git checkout main" and "git merge <branch-name>" commands
+6. Resolving Merge Conflicts if there is a conflict
+
+Branching is important for collaborative development because it allows multiple developers to work independently on different features or fixes without waiting for others to finish, Developers can test ideas in isolated branches without affecting the stability of the main codebase, Branching, combined with pull requests, makes it easy to review code changes, catch errors, and ensure quality before merging and The main branch can be kept stable and free from incomplete features or untested code
+
+Process of creating, using, and merging branches
+1. Create a Branch: Each developer creates a new branch for their task.
+2. Develop and Commit Changes: Developers make and commit changes in their branch.
+3. Push and Open a Pull Request: They push the branch to GitHub and open a pull request.
+4. Code Review: Team members review the pull request, provide feedback, and approve it.
+5. Merge the Branch: Once approved, the branch is merged into the main branch.
+6. Delete the Branch: After merging, the branch is deleted to keep the repository organized.
+
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
