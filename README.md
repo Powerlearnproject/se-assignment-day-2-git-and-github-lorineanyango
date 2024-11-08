@@ -81,6 +81,24 @@ Disadvantages of Private Repositories
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
+Steps involved in making your first commit to a GitHub repository.
+1. Create a GitHub Repository
+-Go to GitHub and log in to your account.
+-Click on the New button to create a new repository.
+-Enter a repository name, make it public or private, and add an optional README.
+-Click Create repository.
+2. Set Up Git Locally (If Not Done Already) by  running git config --global user. name "Your Name" and git config --global user.email "your.email@example.com"
+3. Clone the Repository by typing "git clone <repository-url>"
+4. Navigate to the Repository Folder that you cloned by typing "cd <repository-name>" on your terminal
+5. Add or Create Files
+6. Stage the Changes by typing "git add ." or git add "name-of-specific-file"
+7. Make Your First Commit by typing by using the following command to create a commit with a message describing the changes; git commit -m "first commit"
+8. Push the Commit to GitHub by typing "git push origin main" on you terminal
+9. Go to your GitHub repository and refresh the page. You should see your committed changes listed.
+
+Commit is a snap point of changes made to files in a repository at a specific point in time. Commit helps in tracking changes and managing different versions of a project by keeping a record of each modification, complete with a message describing what was changed and why.
+
+
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
